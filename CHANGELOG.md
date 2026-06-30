@@ -1,5 +1,11 @@
 # Changelog
 
+## v10.0.0 (June 30, 2025)
+
+### Changed
+
+-   Updated to Angular 16 for building the library. Continues to use the legacy Material components (MDC migration deferred to the next major).
+
 ## v9.0.2 (February 9, 2024)
 
 ### Fixed

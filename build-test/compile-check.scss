@@ -1,0 +1,12 @@
+// Minimal compilation harness to verify theme.scss resolves and compiles
+// against @angular/material@16 with legacy theming APIs.
+// This file is excluded from the published package (not listed in package.json "files").
+//
+// Run: yarn build:compile-check
+// Both .blui-blue and .blui-blue-dark themes are emitted by theme.scss, exercising:
+//   - mat.define-legacy-typography-config
+//   - mat.all-legacy-component-themes
+//   - mat.legacy-typography-hierarchy
+//   - mat.legacy-core
+
+@use '../theme';
